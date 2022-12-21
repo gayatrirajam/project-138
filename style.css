@@ -1,12 +1,29 @@
+body{
+    text-align: center;
+}
 .heading{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.btn-danger, #start{
+.btn-danger, #start, #restart{
     background-color: whitesmoke;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 5px solid black;
     font-size: 20px;
+}
+.copy_right_footer{
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    background: white;
+    border: 20px, solid, white;
+    border-radius: 20px;
+    bottom: 0px;
+    margin-top: 20px;
+}
+.canvas{
+    margin: 20px;
+    border-radius: 20px;
 }
 
