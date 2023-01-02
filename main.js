@@ -52,6 +52,12 @@ function draw(){
  image(video, 700, 600, 0, 0);
  background(0); 
 
+ if(rightWrist > 0.2){
+  fill('red');
+  stroke('red');
+  circle(rightWristX, rightWristY, 3);
+ }
+
  fill("black");
  stroke("black");
  rect(680,0,20,700);
