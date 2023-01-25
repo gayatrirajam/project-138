@@ -1,30 +1,41 @@
-body{
-    text-align: center;
+.heading
+{
+width: 100%;
+text-align: left;
 }
-.heading{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.heading h3{
+    display: inline;
 }
-.btn-danger, #start, #restart{
-    background-color: whitesmoke;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 5px solid black;
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
     font-size: 20px;
 }
-.copy_right_footer{
-    width: 100%;
-    text-align: center;
-    position: sticky;
-    background: white;
-    border: 20px, solid, white;
-    border-radius: 20px;
-    bottom: 0px;
-    margin-top: 20px;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-#canvas{
-    margin: 20px;
-    border: solid rgb(23, 38, 255);
-    border-radius: 20px;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
 
